@@ -1,6 +1,6 @@
 // width and height of the nft
-var nftW = 800;
-var nftH = 800;
+var nftW = 500;
+var nftH = 500;
 // pre loader array varible n runs in for loop to load the images need for the collection generation
 var n = 1;
 // this is the number of nft that has been generated at the time of the initialization of the script
@@ -81,7 +81,7 @@ function update(){
 if(sleep==true){
 }else{
    //save current canvas
-   saveCanvas('SandPirate','png');
+   //saveCanvas('SandPirate','png');
    //genration algorithm
    //slide the image number varaibles appropraitly
 
